@@ -102,7 +102,7 @@ export default function Home() {
         </p>
 
         <img
-          src="https://images.unsplash.com/photo-1586201375761-83865001e31c"
+          src="https://unsplash.com/photos/cocoa-pods-hanging-from-a-tree-branch-sFCOat9rphk"
           alt="Shade-grown cocoa farm"
           style={{
             marginTop: "2rem",
