@@ -79,7 +79,7 @@ export default function Home() {
         </div>
 
         <img
-          src="https://unsplash.com/photos/women-holding-cacao-fruit-close-up-photography-rpcCF2Asrx8"
+          src="https://images.unsplash.com/photo-1600180758890-6b94519a8ba6"
           alt="Women cocoa farmers"
           style={{ width: "100%", borderRadius: "12px" }}
         />
@@ -102,7 +102,7 @@ export default function Home() {
         </p>
 
         <img
-          src="https://unsplash.com/photos/cocoa-pods-hanging-from-a-tree-branch-sFCOat9rphk"
+          src="https://images.unsplash.com/photo-1586201375761-83865001e31c"
           alt="Shade-grown cocoa farm"
           style={{
             marginTop: "2rem",
