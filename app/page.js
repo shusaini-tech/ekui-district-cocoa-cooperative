@@ -48,17 +48,17 @@ export default function Home() {
 
       {/* WHO WE ARE */}
       <section
-        style={{
-          padding: "4.5rem 8vw",
-          background: "#f6f2ec",
-          display: "grid",
-          gridTemplateColumns: "1fr 1fr",
-          gap: "3rem",
-          alignItems: "center",
-        }}
-      >
+  style={{
+    padding: "4.5rem 8vw",
+    backgroundColor: "#f3eee6",
+    backgroundImage: "url('/images/paper-texture-light.jpg')",
+    backgroundRepeat: "repeat",
+    backgroundSize: "600px 600px",
+    boxShadow: "inset 0 1px 0 rgba(0,0,0,0.04)"
+  }}
+>
         <div>
-          <h2>Who We Are</h2>
+          <h2>Our Cooperative</h2>
           <p>
             Ekui District Cocoa Cooperative brings together 35 smallholder cocoa
             farmers across Ekui District to strengthen livelihoods while
@@ -77,12 +77,16 @@ export default function Home() {
       <section style={{ padding: "4.5rem 8vw" }}>
         <h2>Our Farming Practices</h2>
 
-        <ul style={{ maxWidth: "760px", lineHeight: 1.7 }}>
-          <li>No forest clearing or expansion into protected areas</li>
-          <li>Shade-grown cocoa cultivated under agroforestry systems</li>
-          <li>Shared fermentation and drying standards across members</li>
-          <li>Basic farm mapping and record-keeping</li>
-        </ul>
+     <section
+  style={{
+    padding: "4.5rem 8vw",
+    backgroundColor: "#f3eee6",
+    backgroundImage: "url('/images/paper-texture-light.jpg')",
+    backgroundRepeat: "repeat",
+    backgroundSize: "600px 600px",
+    boxShadow: "inset 0 1px 0 rgba(0,0,0,0.04)"
+  }}
+>
 
         <img
           src="https://images.unsplash.com/photo-1581356606337-26b82df02a4e"
