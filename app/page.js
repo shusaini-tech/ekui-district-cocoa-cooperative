@@ -147,10 +147,13 @@ export default function Home() {
       </section>
 
       {/* ================= DIRECT TRADE ================= */}
-      <section
+     <section
         style={{
           padding: "4.5rem 8vw",
-          backgroundColor: "#efe8dd",
+          backgroundColor: "#f3eee6",
+          backgroundImage: "url('/images/paper-texture-light.jpg')",
+          backgroundRepeat: "repeat",
+          backgroundSize: "600px 600px",
         }}
       >
         <h2>Direct Trade, Transparent & Fair</h2>
