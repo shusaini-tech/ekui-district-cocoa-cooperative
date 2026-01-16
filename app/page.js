@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <main style={{ fontFamily: "system-ui, sans-serif", color: "#2b2b2b" }}>
 
-      {/* ================= LANGUAGE TOGGLE ================= */}
+      {/* LANGUAGE TOGGLE */}
       <div
         style={{
           padding: "0.75rem 8vw",
@@ -26,12 +26,12 @@ export default function Home() {
         </a>
       </div>
 
-      {/* ================= HERO ================= */}
+      {/* HERO */}
       <section
         style={{
           padding: "6rem 8vw",
           background:
-            "linear-gradient(to right, rgba(74,51,36,0.85), rgba(74,51,36,0.35)), url('https://images.unsplash.com/photo-1598515213694-7f4f2d2b2a58')",
+            "linear-gradient(to right, rgba(74,51,36,0.85), rgba(74,51,36,0.35)), url('https://images.unsplash.com/photo-1583155770965-59330f218bd7')",
           backgroundSize: "cover",
           backgroundPosition: "center",
           color: "white",
@@ -40,20 +40,13 @@ export default function Home() {
         <h1 style={{ fontSize: "3rem", marginBottom: "1rem" }}>
           Ekui District Cocoa Cooperative
         </h1>
-
         <h2 style={{ fontWeight: 400, maxWidth: "760px" }}>
           Deforestation-free cocoa from smallholder farmers in Ekui District,
           Cross River State
         </h2>
-
-        <p style={{ maxWidth: "600px", marginTop: "2rem" }}>
-          A farmer-owned cooperative of 35 smallholder cocoa producers committed
-          to forest protection, transparent trade, and the gradual building of
-          long-term export partnerships.
-        </p>
       </section>
 
-      {/* ================= WHO WE ARE ================= */}
+      {/* WHO WE ARE */}
       <section
         style={{
           padding: "4.5rem 8vw",
@@ -71,21 +64,16 @@ export default function Home() {
             farmers across Ekui District to strengthen livelihoods while
             protecting remaining forest landscapes in Cross River State.
           </p>
-          <p>
-            Through collective organisation, members improve cocoa quality,
-            harmonise post-harvest practices, and engage directly with buyers
-            who value traceability, transparency, and ethical sourcing.
-          </p>
         </div>
 
         <img
-          src="https://images.unsplash.com/photo-1600180758890-6b94519a8ba6"
-          alt="Women cocoa farmers"
+          src="https://images.unsplash.com/photo-1567306301408-9b74779a11af"
+          alt="Woman cocoa farmer harvesting cocoa pods"
           style={{ width: "100%", borderRadius: "12px" }}
         />
       </section>
 
-      {/* ================= OUR FARMING PRACTICES ================= */}
+      {/* OUR FARMING PRACTICES */}
       <section style={{ padding: "4.5rem 8vw" }}>
         <h2>Our Farming Practices</h2>
 
@@ -96,14 +84,9 @@ export default function Home() {
           <li>Basic farm mapping and record-keeping</li>
         </ul>
 
-        <p style={{ maxWidth: "760px", marginTop: "1rem" }}>
-          The cooperative prioritises steady improvement and credibility over
-          rapid expansion or exaggerated sustainability claims.
-        </p>
-
         <img
-          src="https://images.unsplash.com/photo-1586201375761-83865001e31c"
-          alt="Shade-grown cocoa farm"
+          src="https://images.unsplash.com/photo-1581356606337-26b82df02a4e"
+          alt="Cocoa beans drying"
           style={{
             marginTop: "2rem",
             width: "100%",
@@ -113,7 +96,7 @@ export default function Home() {
         />
       </section>
 
-      {/* ================= DIRECT TRADE ================= */}
+      {/* DIRECT TRADE */}
       <section style={{ padding: "4.5rem 8vw", background: "#efe8dd" }}>
         <h2>Direct Trade Model</h2>
         <p style={{ maxWidth: "760px" }}>
@@ -124,7 +107,7 @@ export default function Home() {
         </p>
       </section>
 
-      {/* ================= CTA ================= */}
+      {/* CTA */}
       <section
         style={{
           padding: "4.5rem 8vw",
