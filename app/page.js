@@ -31,7 +31,10 @@ export default function Home() {
         style={{
           padding: "6rem 8vw",
           background:
-            "linear-gradient(to right, rgba(74,51,36,0.85), rgba(74,51,36,0.35))",
+           background:
+  "linear-gradient(to right, rgba(74,51,36,0.85), rgba(74,51,36,0.35)), url('https://images.unsplash.com/photo-1598515213694-7f4f2d2b2a58')",
+backgroundSize: "cover",
+backgroundPosition: "center",
           color: "white",
         }}
       >
