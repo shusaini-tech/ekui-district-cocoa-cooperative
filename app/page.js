@@ -31,7 +31,7 @@ export default function Home() {
         style={{
           padding: "6rem 8vw",
           background:
-            "linear-gradient(to right, rgba(60,40,25,0.85), rgba(60,40,25,0.35)), url('/images/hero-women-cocoa.jpg')",
+            "linear-gradient(to right, rgba(60,40,25,0.85), rgba(60,40,25,0.35)), url('/images/Screenshot%202026-01-16%20at%2016.13.58.png')",
           backgroundSize: "cover",
           backgroundPosition: "center",
           color: "white",
@@ -135,7 +135,7 @@ export default function Home() {
 
         {/* Illustrated practices graphic */}
         <img
-          src="/images/our-practices-graphic.png"
+          src="/images/our_practices.png"
           alt="Illustration of deforestation-free cocoa practices"
           style={{
             marginTop: "2.5rem",
@@ -162,7 +162,7 @@ export default function Home() {
 
         {/* Direct trade diagram */}
         <img
-          src="/images/direct-trade-graphic.png"
+          src="/images/our_practices.png"
           alt="Direct trade model from farmer to cooperative to buyer"
           style={{
             marginTop: "2.5rem",
