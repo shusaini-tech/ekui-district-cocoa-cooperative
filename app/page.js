@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <main style={{ fontFamily: "system-ui, sans-serif", color: "#2b2b2b" }}>
 
-      {/* LANGUAGE TOGGLE */}
+      {/* ================= LANGUAGE TOGGLE ================= */}
       <div
         style={{
           padding: "0.75rem 8vw",
@@ -26,15 +26,14 @@ export default function Home() {
         </a>
       </div>
 
-      {/* HERO */}
+      {/* ================= HERO ================= */}
       <section
         style={{
           padding: "6rem 8vw",
           background:
-           background:
-  "linear-gradient(to right, rgba(74,51,36,0.85), rgba(74,51,36,0.35)), url('https://images.unsplash.com/photo-1598515213694-7f4f2d2b2a58')",
-backgroundSize: "cover",
-backgroundPosition: "center",
+            "linear-gradient(to right, rgba(74,51,36,0.85), rgba(74,51,36,0.35)), url('https://images.unsplash.com/photo-1598515213694-7f4f2d2b2a58')",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
           color: "white",
         }}
       >
@@ -52,29 +51,94 @@ backgroundPosition: "center",
           to forest protection, transparent trade, and the gradual building of
           long-term export partnerships.
         </p>
+      </section>
 
-        <div style={{ marginTop: "2.5rem", display: "flex", gap: "1rem" }}>
-          <a
-            href="/contact"
-            style={{
-              background: "#b4532a",
-              color: "white",
-              padding: "0.75rem 1.5rem",
-              textDecoration: "none",
-              borderRadius: "6px",
-            }}
-          >
-            Buy Direct
-          </a>
+      {/* ================= WHO WE ARE ================= */}
+      <section
+        style={{
+          padding: "4.5rem 8vw",
+          background: "#f6f2ec",
+          display: "grid",
+          gridTemplateColumns: "1fr 1fr",
+          gap: "3rem",
+          alignItems: "center",
+        }}
+      >
+        <div>
+          <h2>Who We Are</h2>
+          <p>
+            Ekui District Cocoa Cooperative brings together 35 smallholder cocoa
+            farmers across Ekui District to strengthen livelihoods while
+            protecting remaining forest landscapes in Cross River State.
+          </p>
+          <p>
+            Through collective organisation, members improve cocoa quality,
+            harmonise post-harvest practices, and engage directly with buyers
+            who value traceability, transparency, and ethical sourcing.
+          </p>
+        </div>
 
-          <a
-            href="/contact"
-            style={{
-              border: "2px solid white",
-              color: "white",
-              padding: "0.75rem 1.5rem",
-              textDecoration: "none",
-              borderRadius: "6px",
-            }}
-          >
-            Partner Wit
+        <img
+          src="https://images.unsplash.com/photo-1600180758890-6b94519a8ba6"
+          alt="Women cocoa farmers"
+          style={{ width: "100%", borderRadius: "12px" }}
+        />
+      </section>
+
+      {/* ================= OUR FARMING PRACTICES ================= */}
+      <section style={{ padding: "4.5rem 8vw" }}>
+        <h2>Our Farming Practices</h2>
+
+        <ul style={{ maxWidth: "760px", lineHeight: 1.7 }}>
+          <li>No forest clearing or expansion into protected areas</li>
+          <li>Shade-grown cocoa cultivated under agroforestry systems</li>
+          <li>Shared fermentation and drying standards across members</li>
+          <li>Basic farm mapping and record-keeping</li>
+        </ul>
+
+        <p style={{ maxWidth: "760px", marginTop: "1rem" }}>
+          The cooperative prioritises steady improvement and credibility over
+          rapid expansion or exaggerated sustainability claims.
+        </p>
+
+        <img
+          src="https://images.unsplash.com/photo-1586201375761-83865001e31c"
+          alt="Shade-grown cocoa farm"
+          style={{
+            marginTop: "2rem",
+            width: "100%",
+            maxWidth: "760px",
+            borderRadius: "12px",
+          }}
+        />
+      </section>
+
+      {/* ================= DIRECT TRADE ================= */}
+      <section style={{ padding: "4.5rem 8vw", background: "#efe8dd" }}>
+        <h2>Direct Trade Model</h2>
+        <p style={{ maxWidth: "760px" }}>
+          Ekui District Cocoa Cooperative is building direct, long-term trading
+          relationships between farmers and buyers. By reducing intermediaries,
+          the cooperative aims to improve traceability, pricing transparency,
+          and mutual accountability.
+        </p>
+      </section>
+
+      {/* ================= CTA ================= */}
+      <section
+        style={{
+          padding: "4.5rem 8vw",
+          textAlign: "center",
+          background: "#4a3324",
+          color: "white",
+        }}
+      >
+        <h2>Work With the Cooperative</h2>
+        <p style={{ maxWidth: "680px", margin: "1rem auto" }}>
+          We welcome conversations with buyers and partners interested in
+          deforestation-free cocoa and long-term collaboration.
+        </p>
+      </section>
+    </main>
+  );
+}
