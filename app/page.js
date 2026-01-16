@@ -74,32 +74,37 @@ export default function Home() {
       </section>
 
       {/* OUR FARMING PRACTICES */}
-      <section style={{ padding: "4.5rem 8vw" }}>
-        <h2>Our Farming Practices</h2>
-
-     <section
+      <section
   style={{
     padding: "4.5rem 8vw",
     backgroundColor: "#f3eee6",
-    backgroundImage: "url('/images/paper-texture-light.jpg')",
+    backgroundImage: "url('images/paper-texture-light.jpg')",
     backgroundRepeat: "repeat",
     backgroundSize: "600px 600px",
-    boxShadow: "inset 0 1px 0 rgba(0,0,0,0.04)"
   }}
 >
 
-        <img
-          src="https://images.unsplash.com/photo-1581356606337-26b82df02a4e"
-          alt="Cocoa beans drying"
-          style={{
-            marginTop: "2rem",
-            width: "100%",
-            maxWidth: "760px",
-            borderRadius: "12px",
-          }}
-        />
-      </section>
+        <h2>Our Farming Practices</h2>
 
+  <ul style={{ maxWidth: "760px", lineHeight: 1.7 }}>
+    <li>No forest clearing</li>
+    <li>Shade-grown cocoa</li>
+    <li>Quality post-harvest handling</li>
+  </ul>
+
+  {/* Graphic layered naturally above texture */}
+  <img
+    src="/images/our-practices-graphic.png"
+    alt="Illustration of deforestation-free cocoa practices"
+    style={{
+      display: "block",
+      maxWidth: "760px",
+      width: "100%",
+      marginTop: "2.5rem",
+    }}
+  />
+    
+</section>
       {/* DIRECT TRADE */}
       <section style={{ padding: "4.5rem 8vw", background: "#efe8dd" }}>
         <h2>Direct Trade Model</h2>
