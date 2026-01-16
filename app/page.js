@@ -31,7 +31,7 @@ export default function Home() {
         style={{
           padding: "6rem 8vw",
           background:
-            "linear-gradient(to right, rgba(74,51,36,0.85), rgba(74,51,36,0.35)), url('https://images.unsplash.com/photo-1583155770965-59330f218bd7')",
+            "linear-gradient(to right, rgba(74,51,36,0.85), rgba(74,51,36,0.35)), url('images/Screenshot%202026-01-16%20at%2016.13.58.png')",
           backgroundSize: "cover",
           backgroundPosition: "center",
           color: "white",
@@ -67,7 +67,7 @@ export default function Home() {
         </div>
 
         <img
-          src="https://images.unsplash.com/photo-1567306301408-9b74779a11af"
+          src="images/Screenshot%202026-01-16%20at%2016.14.27.png"
           alt="Woman cocoa farmer harvesting cocoa pods"
           style={{ width: "100%", borderRadius: "12px" }}
         />
