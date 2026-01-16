@@ -1,8 +1,8 @@
-export default function Home() {
+export default function PageFR() {
   return (
     <main style={{ fontFamily: "system-ui, sans-serif", color: "#2b2b2b" }}>
 
-      {/* LANGUAGE TOGGLE */}
+      {/* SÉLECTEUR DE LANGUE */}
       <div
         style={{
           padding: "0.75rem 8vw",
@@ -12,18 +12,18 @@ export default function Home() {
           justifyContent: "flex-end",
         }}
       >
-        <span style={{ fontWeight: 600 }}>EN</span>
-        <span style={{ margin: "0 0.25rem" }}>|</span>
         <a
-          href="/fr"
+          href="/"
           style={{
             textDecoration: "none",
             color: "#4a3324",
             fontWeight: 600,
           }}
         >
-          FR
+          EN
         </a>
+        <span style={{ margin: "0 0.25rem" }}>|</span>
+        <span style={{ fontWeight: 600 }}>FR</span>
       </div>
 
       {/* HERO */}
@@ -36,11 +36,10 @@ export default function Home() {
         }}
       >
         <h1 style={{ fontSize: "3rem", marginBottom: "1rem" }}>
-          Ekui District Cocoa Cooperative
+          Coopérative Cacaoyère du District d’Ekui
         </h1>
         <h2 style={{ fontWeight: 400, maxWidth: "720px" }}>
-          Deforestation-free cocoa from smallholder farmers in Ekui District,
-          Cross River State
+          Cacao sans déforestation produit par des petits producteurs
         </h2>
       </section>
 
