@@ -79,7 +79,7 @@ export default function Home() {
         </div>
 
         <img
-          src="https://images.unsplash.com/photo-1600180758890-6b94519a8ba6"
+          src="https://unsplash.com/photos/women-holding-cacao-fruit-close-up-photography-rpcCF2Asrx8"
           alt="Women cocoa farmers"
           style={{ width: "100%", borderRadius: "12px" }}
         />
