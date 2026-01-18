@@ -108,7 +108,7 @@ export default function Home() {
         </div>
 
         <img
-          src="/images/cooperative-women-basket.jpg"
+          src="/images/Screenshot%202026-01-16%20at%2016.14.27.png"
           alt="Women members of Ekui District Cocoa Cooperative"
           style={{ width: "100%", borderRadius: "12px" }}
         />
