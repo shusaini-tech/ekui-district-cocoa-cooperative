@@ -135,7 +135,7 @@ export default function Home() {
 
         {/* Illustrated practices graphic */}
         <img
-          src="/images/our_practices.png"
+          src="/images/Direct%20trade%20diagram.jpg"
           alt="Illustration of deforestation-free cocoa practices"
           style={{
             marginTop: "2.5rem",
@@ -165,7 +165,7 @@ export default function Home() {
 
         {/* Direct trade diagram */}
         <img
-          src="/images/our_practices.png"
+          src="/images/Our%20practices%20diagram.jpg"
           alt="Direct trade model from farmer to cooperative to buyer"
           style={{
             marginTop: "2.5rem",
